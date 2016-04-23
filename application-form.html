@@ -8,21 +8,21 @@
     <h1>Job Application</h1>
     <p class="instructions">Please fill out the application and submit when completed.</p>
     <form action="/application" method="POST">
-        <label for="first-name">First Name: </label>
-        <input id="first-name" type="text" name="textfield"><br>
+        <label for="firstname">First Name: </label>
+        <input id="firstname" type="text" name="field-firstname"><br>
         
-        <label for="last-name">Last Name: </label>
-        <input id="last-name" type="text" name="textfield"><br>
+        <label for="lastname">Last Name: </label>
+        <input id="lastname" type="text" name="field-lastname"><br>
         
         <label for="salary">Salary Requirement: </label>
-        <input id="salary" type="text" name="textfield"><br>
+        <input id="salary" type="text" name="field-salary"><br>
         
-        <label for="job-title">Please select the job you are applying for: 
+        <label for="jobtitle">Please select the job you are applying for: 
         </label>
-        <select id="job-title" name="select">
-            <option value="software-engieer">Software Engineer</option>
-            <option value="qa-engineer">QA Engineer</option>
-            <option value="product-manager">Product Manager</option>
+        <select id="jobtitle" name="select-job">
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="QA Engineer">QA Engineer</option>
+            <option value="Product Manager">Product Manager</option>
         </select><br>
         
         <input type="submit">

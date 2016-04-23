@@ -9,7 +9,7 @@ select {
 }
 
 /* Bold text in last name field*/
-#last-name {
+#lastname {
     font-weight: bold;
 }
 
