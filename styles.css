@@ -1,2 +1,18 @@
-/* Your CSS goes here */
+/* Background color of form input boxes */
+input {
+    background-color: yellow;
+}
 
+/* Background color of dropdown menu */
+select {
+    background-color: yellow;
+}
+
+/* Bold text in last name field*/
+#last-name {
+    font-weight: bold;
+}
+
+.instructions {
+    border: solid;
+}

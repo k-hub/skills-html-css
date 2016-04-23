@@ -2,20 +2,31 @@
 <html>
 <head>
     <title>Skills-HTML-CSS</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<form>
-    First Name <input type="text" name="first-name"><br>
-    Last Name <input type="text" name="last-name"><br>
-    Salary Requirement <input type="text" name="salary"><br>
-    Please select the job you are applying for
-    <select name="job-title">
-        <option value="software-engieer">Software Engineer</option>
-        <option value="qa-engineer">QA Engineer</option>
-        <option value="product-manager">Product Manager</option>
-    </select><br>
-    <input type="submit">
-</form>
+    <h1>Job Application</h1>
+    <p class="instructions">Please fill out the application and submit when completed.</p>
+    <form action="/application" method="POST">
+        <label for="first-name">First Name: </label>
+        <input id="first-name" type="text" name="textfield"><br>
+        
+        <label for="last-name">Last Name: </label>
+        <input id="last-name" type="text" name="textfield"><br>
+        
+        <label for="salary">Salary Requirement: </label>
+        <input id="salary" type="text" name="textfield"><br>
+        
+        <label for="job-title">Please select the job you are applying for: 
+        </label>
+        <select id="job-title" name="select">
+            <option value="software-engieer">Software Engineer</option>
+            <option value="qa-engineer">QA Engineer</option>
+            <option value="product-manager">Product Manager</option>
+        </select><br>
+        
+        <input type="submit">
+    </form>
 
 
 </body>
